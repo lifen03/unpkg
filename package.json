@@ -9,6 +9,7 @@
     "serve": "nodemon -w server.js server.js",
     "test": "jest",
     "watch": "rollup -c -w",
+    "start":"NODE_ENV=production node server.js",
     "postinstall": "yarn run build"
   },
   "dependencies": {
